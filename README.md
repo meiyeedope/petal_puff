@@ -1,6 +1,6 @@
 ## Application tools 
-React + typescript
-FastAPI
+React + typescript \
+FastAPI \
 MariaDB
 
 ## Starts the app through docker with React, FastAPI, MariaDB
