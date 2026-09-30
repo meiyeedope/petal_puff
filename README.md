@@ -1,11 +1,11 @@
-## application tools 
+## Application tools 
 React + typescript
 FastAPI
 MariaDB
 
 ## Starts the app through docker with React, FastAPI, MariaDB
 docker compose up --build
-link : http://localhost:8080
+link : **http://localhost:8080**
 docs: http://localhost:8000/docs
 
 ## Stop the app 
@@ -17,7 +17,9 @@ npm ci
 npm run dev
 link : http://localhost:5173
 
-## Overview of the files 
+
+| File                        | Purpose                                                                      |
+| --------------------------- | ---------------------------------------------------------------------------- |
 | `frontend/src/App.tsx`      | Pages, five builder steps, saved designs, and cart                           |
 | `frontend/src/Bouquet.tsx`  | Interactive SVG flower and bouquet artwork                                   |
 | `frontend/src/styles.css`   | Colours, typography, layout, and mobile breakpoints                          |
@@ -27,6 +29,7 @@ link : http://localhost:5173
 | `compose.yaml`              | Complete local stack                                                         |
 
 ## API
+
 | Method | Path                | Purpose                                         |
 | ------ | ------------------- | ----------------------------------------------- |
 | GET    | `/api/health`       | Verify API/database connection                  |
@@ -35,4 +38,3 @@ link : http://localhost:5173
 | POST   | `/api/designs`      | Persist a design; returns an opaque UUID        |
 | GET    | `/api/designs/{id}` | Retrieve a design by its UUID                   |
 | POST   | `/api/orders`       | Save an order draft; requires a UUID request ID |
-
