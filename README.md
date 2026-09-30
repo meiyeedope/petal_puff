@@ -4,17 +4,17 @@ FastAPI
 MariaDB
 
 ## Starts the app through docker with React, FastAPI, MariaDB
-docker compose up --build
-link : **http://localhost:8080**
+docker compose up --build \
+link : http://localhost:8080 \
 docs: http://localhost:8000/docs
 
 ## Stop the app 
 docker compose down
 
 ## Frontend-only preview. no backend
-cd frontend
-npm ci
-npm run dev
+cd frontend \
+npm ci \
+npm run dev \
 link : http://localhost:5173
 
 
