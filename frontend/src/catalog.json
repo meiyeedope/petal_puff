@@ -1,0 +1,143 @@
+{
+  "sizes": [
+    { "id": "mini", "name": "Mini", "capacity": 4, "price": 0 },
+    { "id": "standard", "name": "Standard", "capacity": 6, "price": 0 },
+    { "id": "premium", "name": "Premium", "capacity": 8, "price": 0 },
+    { "id": "grand", "name": "Grand", "capacity": 10, "price": 0 }
+  ],
+  "flowers": [
+    {
+      "id": "tulip",
+      "name": "Tulip",
+      "category": "Tulips",
+      "price": 250,
+      "color": "#f08ba8"
+    },
+    {
+      "id": "rose",
+      "name": "Rose",
+      "category": "Roses",
+      "price": 350,
+      "color": "#e75b8e"
+    },
+    {
+      "id": "daisy",
+      "name": "Daisy",
+      "category": "Daisies",
+      "price": 250,
+      "color": "#fffaf1"
+    },
+    {
+      "id": "sunflower",
+      "name": "Sunflower",
+      "category": "Sunflowers",
+      "price": 350,
+      "color": "#f4c65b"
+    },
+    {
+      "id": "lily",
+      "name": "Lily",
+      "category": "Lilies",
+      "price": 350,
+      "color": "#eba5ba"
+    },
+    {
+      "id": "lavender",
+      "name": "Lavender",
+      "category": "Lavender",
+      "price": 200,
+      "color": "#b4a0d4"
+    },
+    {
+      "id": "carnation",
+      "name": "Carnation",
+      "category": "Carnations",
+      "price": 300,
+      "color": "#e9a7b9"
+    },
+    {
+      "id": "gypsophila",
+      "name": "Baby’s breath",
+      "category": "Baby’s breath",
+      "price": 150,
+      "color": "#fffdf7"
+    }
+  ],
+  "wrappings": [
+    { "id": "korean", "name": "Korean Style", "price": 800 },
+    { "id": "layered", "name": "Layered", "price": 1000 },
+    { "id": "classic", "name": "Classic", "price": 500 },
+    { "id": "grand", "name": "Grand", "price": 1200 }
+  ],
+  "ribbons": [
+    { "id": "pink", "name": "Pink ribbon", "color": "#eaa0b7", "price": 200 },
+    { "id": "blue", "name": "Blue ribbon", "color": "#b8ccdd", "price": 200 },
+    { "id": "white", "name": "White ribbon", "color": "#fffdf4", "price": 200 },
+    { "id": "gold", "name": "Gold ribbon", "color": "#dbbd76", "price": 300 }
+  ],
+  "extras": [
+    { "id": "bear", "name": "Little bear", "price": 800 },
+    { "id": "bunny", "name": "Cuddle bunny", "price": 1000 },
+    { "id": "charm", "name": "Heart charm", "price": 300 }
+  ],
+  "colors": [
+    "#f0bac8",
+    "#e2c5da",
+    "#c6d5e3",
+    "#f5e9d6",
+    "#d5dbbd",
+    "#ffffff",
+    "#d7c2b4",
+    "#e4b4a5",
+    "#c4b4d7",
+    "#bfcac5"
+  ],
+  "products": [
+    {
+      "id": "strawberry-milk",
+      "name": "Strawberry Milk",
+      "price": 1500,
+      "category": "Best Sellers",
+      "tag": "A little sweetness",
+      "tint": 0,
+      "image": "/products/strawberry-milk.png"
+    },
+    {
+      "id": "blush-hour",
+      "name": "Blush Hour",
+      "price": 2500,
+      "category": "Birthday",
+      "tag": "For their special day",
+      "tint": -12,
+      "image": "/products/blush-hour."
+    },
+    {
+      "id": "love-letter",
+      "name": "Love Letter",
+      "price": 3500,
+      "category": "Anniversary",
+      "tag": "Say it with forever flowers",
+      "tint": 8,
+      "image": "/products/love-letter."
+    },
+    {
+      "id": "pink-promise",
+      "name": "Pink Promise",
+      "price": 2800,
+      "category": "Best Sellers",
+      "tag": "Made to make them smile",
+      "tint": -6,
+       "image": "/products/pink-promise."
+    },
+    {
+      "id": "petal-kisses",
+      "name": "Petal Kisses",
+      "price": 2200,
+      "category": "Birthday",
+      "tag": "Small bouquet, big feelings",
+      "tint": 12,
+       "image": "/products/petal-kisses."
+    }
+  ],
+  "delivery": 1000
+}

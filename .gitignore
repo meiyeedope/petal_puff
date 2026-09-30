@@ -1,0 +1,18 @@
+# Environment variables
+.env
+
+# Frontend dependencies
+frontend/node_modules/
+
+# Frontend build output
+frontend/dist/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# virtual env
+.venv
